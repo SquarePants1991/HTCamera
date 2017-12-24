@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HTCamera_Example' do
+  pod 'HTCamera', :path => '../'
+
+  target 'HTCamera_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
