@@ -1,0 +1,6 @@
+framework module HTCamera {
+  umbrella header "HTCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}
