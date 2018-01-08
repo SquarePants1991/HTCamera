@@ -1,8 +1,8 @@
 {
   "name": "HTCamera",
-  "version": "0.1.0",
-  "summary": "A short description of HTCamera.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "对AVCameraSession的封装",
+  "description": "对授权，二维码识别进行了封装，易于使用",
   "homepage": "https://github.com/SquarePants1991/HTCamera",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:SquarePants1991/HTCamera.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

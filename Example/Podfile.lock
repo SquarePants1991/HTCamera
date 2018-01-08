@@ -1,5 +1,5 @@
 PODS:
-  - HTCamera (0.1.0)
+  - HTCamera (0.1.1)
 
 DEPENDENCIES:
   - HTCamera (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HTCamera: 61d634a00c2f5c8502912a6a02a62b994e84519c
+  HTCamera: ea8de340bfdc30da1396ee0626093d9def17e5bd
 
 PODFILE CHECKSUM: fe24afaab9186f2040c964a0bf852490e40c9f2a
 

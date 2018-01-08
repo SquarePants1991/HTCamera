@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36565703-b4e6-405e-be15-0e14d18dd9fb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HTCameraDefaultAuthProvider.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HTCameraDefaultAuthProvider.m" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HTCameraRecognizeResult.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HTCameraRecognizeResult.m" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HTCamera/HTViewController.m" afterPath="$PROJECT_DIR$/HTCamera/HTViewController.m" />
       <change beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
       <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/HTCamera.podspec.json" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/HTCamera.podspec.json" />
       <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
       <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
       <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HTCamera/HTCamera-umbrella.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HTCamera/HTCamera-umbrella.h" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HTCamera/Info.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HTCamera/Info.plist" />
       <change beforePath="$PROJECT_DIR$/../HTCamera.podspec" afterPath="$PROJECT_DIR$/../HTCamera.podspec" />
-      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.h" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.h" />
-      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m" />
-      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.h" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.h" />
-      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.m" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.m" />
-      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionDelegate.h" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionDelegate.h" />
+      <change beforePath="$PROJECT_DIR$/../HTCameraDefaultAuthProvider.h" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraDefaultAuthProvider.h" />
+      <change beforePath="$PROJECT_DIR$/../HTCameraDefaultAuthProvider.m" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraDefaultAuthProvider.m" />
+      <change beforePath="$PROJECT_DIR$/../HTCameraRecognizeResult.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HTCameraRecognizeResult.m" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,18 +72,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTCameraDefaultAuthProvider.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTCameraDefaultAuthProvider.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="113" lean-forward="false" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
-              <folding>
-                <element signature="e#91#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HTCameraRecognizeResult.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraRecognizeResult.m">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,21 +95,29 @@
       <file leaf-file-name="HTCamera.podspec" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../HTCamera.podspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="200">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HTCameraDefaultAuthProvider.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTCameraDefaultAuthProvider.h">
+        <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraDefaultAuthProvider.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="87" lean-forward="false" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
-              <folding>
-                <element signature="e#91#124#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTCameraDefaultAuthProvider.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraDefaultAuthProvider.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/HTCamera/HTViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#141#187#0" expanded="true" />
               </folding>
@@ -297,23 +288,24 @@
       <workItem from="1514100251539" duration="12299000" />
       <workItem from="1515377483740" duration="1392000" />
       <workItem from="1515378898490" duration="6744000" />
-      <workItem from="1515391756086" duration="597000" />
+      <workItem from="1515391756086" duration="1013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21853000" />
+    <option name="totallyTimeSpent" value="22269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.120204605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4948849" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2310954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -350,8 +342,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../HTCameraSessionImpl.m" />
-    <entry file="file://$PROJECT_DIR$/../HTCameraSessionImpl.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureSession.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -615,7 +605,7 @@
     <entry file="file://$PROJECT_DIR$/HTCamera/HTViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#141#187#0" expanded="true" />
           </folding>
@@ -644,9 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="87" lean-forward="false" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
-          <folding>
-            <element signature="e#91#124#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -654,16 +642,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="113" lean-forward="false" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
-          <folding>
-            <element signature="e#91#124#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraDefaultAuthProvider.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraDefaultAuthProvider.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HTCamera.podspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="200">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding />
         </state>
       </provider>

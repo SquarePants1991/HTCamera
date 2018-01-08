@@ -12,6 +12,7 @@
 
 #import "HTCameraSession+CAPreview.h"
 #import "HTCameraSession+GLPreview.h"
+#import "HTCameraDefaultAuthProvider.h"
 #import "HTCameraFrame.h"
 #import "HTCameraRecognizeResult.h"
 #import "HTCameraSession.h"
