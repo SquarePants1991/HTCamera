@@ -24,4 +24,7 @@ typedef enum : NSInteger {
 
 /// @abstract 摄像机配置
 @property (assign, nonatomic) HTCameraSessionPreset defaultCameraSessionPreset;
+
+/// @abstract 是否需要开启识别二维码
+@property (assign, nonatomic) BOOL needRecognizeQrCode;
 @end

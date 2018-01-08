@@ -10,6 +10,7 @@
         self.useVideoDataOutput = YES;
         self.defaultCameraDeviceType = HTCameraDeviceTypeBack;
         self.defaultCameraSessionPreset = HTCameraSessionPresetHigh;
+        self.needRecognizeQrCode = NO;
     }
     return self;
 }

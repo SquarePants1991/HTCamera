@@ -11,7 +11,7 @@
 #import "HTViewController.h"
 #import "HTCamera/HTCameraSession.h"
 
-@interface HTViewController ()
+@interface HTViewController () <HTCameraSessionRecognizeDelegate, HTCameraSessionAuthorizationDelegate>
 @property (strong, nonatomic) HTCameraSession *cameraSession;
 @property (weak, nonatomic) IBOutlet UIView *containerView;
 @end
@@ -22,14 +22,11 @@
     [super viewDidLoad];
 
     HTCameraSessionConfig *config = [HTCameraSessionConfig new];
+    config.needRecognizeQrCode = YES;
+    config.defaultCameraSessionPreset = HTCameraSessionPresetHigh;
     self.cameraSession = [[HTCameraSession alloc] initWithConfig:config];
-    [self.cameraSession beginCapture:^(BOOL isSuccess, NSError *error) {
-        if (isSuccess) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self.cameraSession addGLPreviewToView:self.containerView];
-            });
-        }
-    }];
+    self.cameraSession.recognizeDelegate = self;
+    [self.cameraSession addGLPreviewToView:self.view];
 }
 
 - (IBAction)cameraModeChange:(UISwitch *)sender {
@@ -38,6 +35,13 @@
     } else {
         [self.cameraSession useCameraDevice:HTCameraDeviceTypeFront];
     }
+}
+
+- (void)cameraSession:(HTCameraSession *)cameraSession didRecognize:(HTCameraRecognizeResult *)result {
+    NSLog(@"%@", [result qrcodeContentString]);
+    [cameraSession stopCapture:^(BOOL isSuccess, NSError *error) {
+
+    }];
 }
 
 @end

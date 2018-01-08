@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m" line="275" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="36565703-b4e6-405e-be15-0e14d18dd9fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../HTCamera/Classes/ReplaceMe.m" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTCamera.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/HTCamera.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTCamera/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/HTCamera/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTCamera/HTCamera-Info.plist" afterPath="$PROJECT_DIR$/HTCamera/HTCamera-Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTCamera/HTViewController.m" afterPath="$PROJECT_DIR$/HTCamera/HTViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HTCamera.podspec" afterPath="$PROJECT_DIR$/../HTCamera.podspec" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HTCameraDefaultAuthProvider.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HTCameraDefaultAuthProvider.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HTCameraRecognizeResult.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HTCameraRecognizeResult.m" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/HTCamera/HTViewController.m" afterPath="$PROJECT_DIR$/HTCamera/HTViewController.m" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/HTCamera.podspec.json" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/HTCamera.podspec.json" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/HTCamera/HTCamera-umbrella.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HTCamera/HTCamera-umbrella.h" />
+      <change beforePath="$PROJECT_DIR$/../HTCamera.podspec" afterPath="$PROJECT_DIR$/../HTCamera.podspec" />
+      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.h" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.h" />
+      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m" />
+      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.h" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.h" />
+      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.m" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.m" />
+      <change beforePath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionDelegate.h" afterPath="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionDelegate.h" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +30,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_bd46f26121f3bb0d1ff2436774dafd4cb0ba3b7f" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_adca1f431a461aa82085e97cfbd5472e27b39a2f" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="HTCameraSessionConfig.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="440">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTCameraSession.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4062">
+              <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <folding>
+                <element signature="e#46#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,8 +58,8 @@
       <file leaf-file-name="HTCameraSessionConfig.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -43,18 +68,8 @@
       <file leaf-file-name="HTCameraSession.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTCameraSession+GLPreview.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/GL Preview/HTCameraSession+GLPreview.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding>
                 <element signature="e#46#83#0" expanded="true" />
               </folding>
@@ -62,44 +77,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTCameraSession.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m">
+      <file leaf-file-name="HTCameraDefaultAuthProvider.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HTCameraDefaultAuthProvider.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2128">
-              <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+            <state relative-caret-position="260">
+              <caret line="13" column="113" lean-forward="false" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
               <folding>
-                <element signature="e#46#73#0" expanded="true" />
+                <element signature="e#91#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTCamera/main.m">
+      <file leaf-file-name="HTCameraRecognizeResult.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraRecognizeResult.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AVCaptureDevice.h" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureDevice.h">
+      <file leaf-file-name="HTCameraSession+GLPreview.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/GL Preview/HTCameraSession+GLPreview.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="800" column="39" lean-forward="false" selection-start-line="800" selection-start-column="21" selection-end-line="800" selection-end-column="39" />
+            <state relative-caret-position="660">
+              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AVCaptureSessionPreset.h" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureSessionPreset.h">
+      <file leaf-file-name="HTCamera.podspec" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HTCamera.podspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="59" column="40" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+            <state relative-caret-position="197">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTCameraDefaultAuthProvider.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HTCameraDefaultAuthProvider.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="87" lean-forward="false" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
+              <folding>
+                <element signature="e#91#124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,22 +134,10 @@
       <file leaf-file-name="HTViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTCamera/HTViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            <state relative-caret-position="153">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#141#187#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTCameraSessionConfig.h" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/AppCode2017.2/DerivedData/HTCamera-gockqsfpgtszdpazuxzvwirbbplj/Build/Products/Debug-iphoneos/HTCamera/HTCamera.framework/Headers/HTCameraSessionConfig.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-              <folding>
-                <marker date="1514120449000" expanded="true" signature="666:668" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,6 +148,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>configCameraSessionPreset</find>
+      <find>HTCameraSessionPresetHigh</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,20 +161,26 @@
         <option value="$PROJECT_DIR$/../HTCameraSessionConfig.h" />
         <option value="$PROJECT_DIR$/../HTCameraSessionImpl.m" />
         <option value="$PROJECT_DIR$/../HTCameraSessionImpl.h" />
-        <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionDelegate.h" />
         <option value="$PROJECT_DIR$/../HTCameraSession+CAPreview.h" />
         <option value="$PROJECT_DIR$/../HTCameraSession+CAPreview.m" />
         <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession+CAPreview.m" />
         <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession+CAPreview.h" />
-        <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.h" />
         <option value="$PROJECT_DIR$/../HTCamera/Classes/GL Preview/HTCameraSession+GLPreview.h" />
         <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraFrame.m" />
         <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraFrame.h" />
+        <option value="$PROJECT_DIR$/../HTCameraRecognizeResult.m" />
         <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.h" />
         <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.m" />
-        <option value="$PROJECT_DIR$/HTCamera/HTViewController.m" />
-        <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m" />
+        <option value="$PROJECT_DIR$/../HTCameraRecognizeResult.h" />
+        <option value="$PROJECT_DIR$/../HTCamera/Classes/CA Preview/HTCameraSession+CAPreview.m" />
+        <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionDelegate.h" />
         <option value="$PROJECT_DIR$/../HTCamera/Classes/GL Preview/HTCameraSession+GLPreview.m" />
+        <option value="$PROJECT_DIR$/../HTCameraDefaultAuthProvider.h" />
+        <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.h" />
+        <option value="$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m" />
+        <option value="$PROJECT_DIR$/HTCamera/HTViewController.m" />
+        <option value="$PROJECT_DIR$/../HTCameraDefaultAuthProvider.m" />
+        <option value="$PROJECT_DIR$/../HTCamera.podspec" />
       </list>
     </option>
   </component>
@@ -191,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,6 +228,11 @@
             </path>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="HTCamera" type="1d218c8b:XcodeProjectNode" />
+              <item name="Podspec Metadata" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
               <item name="Pods" type="1d218c8b:XcodeProjectNode" />
             </path>
             <path>
@@ -217,20 +245,6 @@
               <item name="Pods" type="1d218c8b:XcodeProjectNode" />
               <item name="Development Pods" type="fcab9f18:XcodeViewNode" />
               <item name="HTCamera" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
-              <item name="Development Pods" type="fcab9f18:XcodeViewNode" />
-              <item name="HTCamera" type="fcab9f18:XcodeViewNode" />
-              <item name="CA Preview" type="fcab9f18:XcodeViewNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
-              <item name="Development Pods" type="fcab9f18:XcodeViewNode" />
-              <item name="HTCamera" type="fcab9f18:XcodeViewNode" />
-              <item name="GL Preview" type="fcab9f18:XcodeViewNode" />
             </path>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
@@ -247,13 +261,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="HTCamera" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++/Objective-C" />
+    <property name="settings.editor.selected.configurable" value="XcodeSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -267,9 +280,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HTCamera-Example" />
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -280,34 +295,37 @@
       <updated>1514098639060</updated>
       <workItem from="1514098640244" duration="821000" />
       <workItem from="1514100251539" duration="12299000" />
+      <workItem from="1515377483740" duration="1392000" />
+      <workItem from="1515378898490" duration="6744000" />
+      <workItem from="1515391756086" duration="597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13120000" />
+    <option name="totallyTimeSpent" value="21853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="4" y="23" width="1436" height="877" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.120204605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2273292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24860725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2310954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16240409" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -320,168 +338,45 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m</url>
+          <line>62</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../HTCameraSession.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraFrame.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraFrame.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSession.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraFrame.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSessionDelegate.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSession.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraFrame.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSessionImpl.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSessionImpl.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCameraSessionImpl.m" />
+    <entry file="file://$PROJECT_DIR$/../HTCameraSessionImpl.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureSession.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="444" column="8" lean-forward="false" selection-start-line="444" selection-start-column="8" selection-end-line="444" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSessionConfig.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSessionConfig.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSession+CAPreview.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSession+CAPreview.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCameraSessionConfig.h" />
+    <entry file="file://$PROJECT_DIR$/../HTCameraSessionConfig.m" />
+    <entry file="file://$PROJECT_DIR$/../HTCameraSession+CAPreview.h" />
+    <entry file="file://$PROJECT_DIR$/../HTCameraSession+CAPreview.m" />
     <entry file="file://$PROJECT_DIR$/Podfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession+CAPreview.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/AppCode2017.2/DerivedData/HTCamera-gockqsfpgtszdpazuxzvwirbbplj/Build/Products/Debug-iphoneos/HTCamera/HTCamera.framework/Headers/HTCameraSession.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession+CAPreview.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession+CAPreview.m" />
+    <entry file="file://$USER_HOME$/Library/Caches/AppCode2017.2/DerivedData/HTCamera-gockqsfpgtszdpazuxzvwirbbplj/Build/Products/Debug-iphoneos/HTCamera/HTCamera.framework/Headers/HTCameraSession.h" />
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession+CAPreview.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoDataOutput.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="222" column="151" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="151" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -489,7 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="171" column="17" lean-forward="false" selection-start-line="171" selection-start-column="17" selection-end-line="171" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -497,7 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="135" column="15" lean-forward="false" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,31 +398,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSession+GLPreview.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCameraSession+GLPreview.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCameraSession+GLPreview.m" />
+    <entry file="file://$PROJECT_DIR$/../HTCameraSession+GLPreview.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMSampleBuffer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
           <caret line="705" column="30" lean-forward="false" selection-start-line="705" selection-start-column="30" selection-end-line="705" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,19 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/CA Preview/HTCameraSession+CAPreview.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIFilter.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="256" column="24" lean-forward="false" selection-start-line="256" selection-start-column="24" selection-end-line="256" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,9 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="e#46#79#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,68 +448,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionDelegate.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureSessionPreset.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
+        <state relative-caret-position="1180">
           <caret line="59" column="40" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/AppCode2017.2/DerivedData/HTCamera-gockqsfpgtszdpazuxzvwirbbplj/Build/Products/Debug-iphoneos/HTCamera/HTCamera.framework/Headers/HTCameraSessionConfig.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <marker date="1514120449000" expanded="true" signature="666:668" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/AppCode2017.2/DerivedData/HTCamera-gockqsfpgtszdpazuxzvwirbbplj/Build/Products/Debug-iphoneos/HTCamera/HTCamera.framework/Headers/HTCameraSessionConfig.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureDevice.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="800" column="39" lean-forward="false" selection-start-line="800" selection-start-column="21" selection-end-line="800" selection-end-column="39" />
+        <state relative-caret-position="1340">
+          <caret line="67" column="11" lean-forward="false" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMetadataObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCameraRecognizeResult.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCameraRecognizeResult.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Developer/Xcode/DerivedData/HTCamera-gmhrrehuuekqmrepjmnftvtbyxrq/Build/Products/Debug-iphoneos/HTCamera/HTCamera.framework/Headers/HTCameraSessionConfig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/CA Preview/HTCameraSession+CAPreview.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Developer/Xcode/DerivedData/HTCamera-gmhrrehuuekqmrepjmnftvtbyxrq/Build/Products/Debug-iphoneos/HTCamera/HTCamera.framework/Headers/HTCameraSession.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureSessionPreset.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAlertController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTCamera/main.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="280">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file:///Applications/Xcode9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureMetadataOutput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2080">
+          <caret line="104" column="14" lean-forward="false" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="126" column="8" lean-forward="false" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSProcessInfo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraRecognizeResult.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSessionConfig.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="e#46#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTCamera/HTViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        <state relative-caret-position="153">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#141#187#0" expanded="true" />
           </folding>
@@ -653,29 +624,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2128">
-          <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+        <state relative-caret-position="-4062">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#46#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/HTCameraSession.h">
+    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/GL Preview/HTCameraSession+GLPreview.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="660">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HTCamera/Classes/GL Preview/HTCameraSession+GLPreview.m">
+    <entry file="file://$PROJECT_DIR$/../HTCameraDefaultAuthProvider.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        <state relative-caret-position="200">
+          <caret line="10" column="87" lean-forward="false" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
           <folding>
-            <element signature="e#46#83#0" expanded="true" />
+            <element signature="e#91#124#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCameraDefaultAuthProvider.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="113" lean-forward="false" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
+          <folding>
+            <element signature="e#91#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTCamera.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

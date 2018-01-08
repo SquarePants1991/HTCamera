@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of HTCamera.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/handyTool/HTCamera",
+  "homepage": "https://github.com/SquarePants1991/HTCamera",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "handyTool": "tomcat1991@12.com"
+    "handyTool": "tomcat1991@126.com"
   },
   "source": {
-    "git": "https://github.com/handyTool/HTCamera.git",
+    "git": "git@github.com:SquarePants1991/HTCamera.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTCamera'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HTCamera.'
+  s.version          = '0.1.1'
+  s.summary          = '对AVCameraSession的封装'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+对授权，二维码识别进行了封装，易于使用
                        DESC
 
-  s.homepage         = 'https://github.com/handyTool/HTCamera'
+  s.homepage         = 'https://github.com/SquarePants1991/HTCamera'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'handyTool' => 'tomcat1991@12.com' }
-  s.source           = { :git => 'https://github.com/handyTool/HTCamera.git', :tag => s.version.to_s }
+  s.author           = { 'handyTool' => 'tomcat1991@126.com' }
+  s.source           = { :git => 'git@github.com:SquarePants1991/HTCamera.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

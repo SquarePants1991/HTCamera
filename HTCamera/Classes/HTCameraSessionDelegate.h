@@ -6,6 +6,7 @@
 
 @class HTCameraSession;
 @class HTCameraFrame;
+@class HTCameraRecognizeResult;
 
 @protocol HTCameraSessionDelegate <NSObject>
 /// 摄像机开始捕捉图像
@@ -20,4 +21,12 @@
 /// @param cameraSession
 /// @param frame 帧数据
 - (void)cameraSessionCapturing:(HTCameraSession *)cameraSession frame:(HTCameraFrame *)frame;
+@end
+
+@protocol HTCameraSessionRecognizeDelegate <NSObject>
+- (void)cameraSession:(HTCameraSession *)cameraSession didRecognize:(HTCameraRecognizeResult *)result;
+@end
+
+@protocol HTCameraSessionAuthorizationDelegate <NSObject>
+- (void)cameraSessionRequireAuth:(HTCameraSession *)cameraSession;
 @end

@@ -7,28 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B562A8F5C047DA3561BBF643AE01875 /* HTCameraSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD5C748853224BD0FC45C2889FDCD57 /* HTCameraSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C174E5FBA5C4CC5505D013C024D461 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
-		25BA79A3F4192D52DB4A29551C39D654 /* HTCameraSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F68FED5B441228137556DC6BCCA2DE /* HTCameraSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AFD84DEC121F8C8831B18C12F0F806A /* HTCameraSession+GLPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9B732FA819418929C6B9A340134DF /* HTCameraSession+GLPreview.m */; };
-		4F98C98EDDD9A1FC37EF81FA938F1A3F /* HTCameraSession+CAPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D458BEEB4FB8083AF118D10F2862A /* HTCameraSession+CAPreview.m */; };
-		63395E9238320138F951F38F0ECE4A32 /* HTCameraSession+GLPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E572F800FA566AB4C2E6C828FDD9D58 /* HTCameraSession+GLPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FA185B8255AC4836BB0916103ACF3F8 /* HTCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD536AA175A060742BB8F88DDC816083 /* HTCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C4533F4332158C0A171E02FA8EF85AF /* HTCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E02987DBCBA855C733C2273767E58A /* HTCamera-dummy.m */; };
-		89BE8A76FF7F8D945CC7BD9AD2AF2042 /* HTCameraSessionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DF49025A1AE695B9B5AB8CD014CF19 /* HTCameraSessionConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91A47D2FD1BEF6DD17F78406FC59D085 /* HTCameraSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EC7CB60F0CD2079D0D426B67FA87FD /* HTCameraSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E3610C6BFA144803760F825BE8FA3FE /* HTCameraFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 910D8F788CAA67B94679926FD1B806E9 /* HTCameraFrame.m */; };
+		251F7FAEA8B2A590117DB823C893A865 /* HTCameraSessionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D61BC174328E4E6F264CF1ED17566EF /* HTCameraSessionConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CF93A6C51F3EBE949D1217EA73A6C57 /* HTCameraSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 4245EFBA9C617FD50EAEE96F04FEEDB8 /* HTCameraSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		619DA76AA16B75A69B0448D7F46FF5E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		633DE80BC17B5F492E9E1AC2997B7525 /* HTCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBD044D3FA1DD3ABB08465821F39481 /* HTCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E2C4BEEADD898EA830E7C6ED618D6D0 /* HTCameraSession+CAPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F501506E11B543590114CA83414CB6 /* HTCameraSession+CAPreview.m */; };
+		819460D69DACEB3BE4E74CBB32D28A52 /* HTCameraFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EE4B548AD7AE967C7066444A4EF9A7 /* HTCameraFrame.m */; };
+		86C5B5DB5B3662349945D04B063246DC /* HTCameraFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A02F45813C5F4E9DB77FB86270B2078 /* HTCameraFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E5CAF4B20034284002D3736 /* HTCameraDefaultAuthProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5CAF4920034284002D3736 /* HTCameraDefaultAuthProvider.h */; };
+		8E5CAF4C20034284002D3736 /* HTCameraDefaultAuthProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5CAF4A20034284002D3736 /* HTCameraDefaultAuthProvider.m */; };
+		A2E40B7C5E43CB8327161C2913274605 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */; };
+		A56E8ADCD010E82E98DEB0D5710CE487 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
 		B1ECE91D0A004F19726E12CBBB048F25 /* Pods-HTCamera_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCE1E11A283F12F1AD8AE9AFF8E0E99 /* Pods-HTCamera_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7438BE8CFC5EA2F682C0FA40533E8E3 /* HTCameraRecognizeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D9AD382B60A8A961127259C30FCC6167 /* HTCameraRecognizeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDD1D218F427DA3745425C5A82E84030 /* Pods-HTCamera_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CBF2A3AE20031AC015BA90BE7F4FD8 /* Pods-HTCamera_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE103673274D43ED17922007FC0DD7F1 /* HTCameraSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8277F900C06F81F29E9A2B616C54C750 /* HTCameraSession.m */; };
 		C2598CBFEF905EAA6AB301612C05493C /* Pods-HTCamera_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C96A049745E2210C0C08C258365157BD /* Pods-HTCamera_Example-dummy.m */; };
-		C8A0D612945BE322C1B1D31DE04D68A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */; };
-		C9B68C1FE880EC1ACF8F636C495CF3B4 /* HTCameraSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E54469EB56382E246AC3EC991D8632 /* HTCameraSession.m */; };
+		C688E787A60D3E92278F6C955CDC98FA /* HTCameraSession+CAPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 959A295F506F3F4A0780FCD768FCAB57 /* HTCameraSession+CAPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB68556468C78894EA9F2565606B1D66 /* Pods-HTCamera_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 304A3B2083329A6C2C50BF68888F236B /* Pods-HTCamera_Tests-dummy.m */; };
+		CFE8F7EEF06D967215F52DB416F7868C /* HTCameraRecognizeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AF864EECEEE2F887FCC41527D6D20AD2 /* HTCameraRecognizeResult.m */; };
 		D2FA7667B8A9C2BDB711C6A805EBD5D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
-		D6C453D559387F48B9CCA7D3CC7218DD /* HTCameraFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FDA4A4116D77A55212DACA7483CA8B /* HTCameraFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E422994E14A8A056DF95473E73F8D1EB /* HTCameraSession+CAPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F81D4F3395EE6B8AD506332450A6382 /* HTCameraSession+CAPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F38F669CE7E9476F3F12FD663C37263B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
-		F4D1303C5E59C178EB21DD03868C8496 /* HTCameraSessionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DE1F56513FDAE4AB4CC0A5207204A2 /* HTCameraSessionConfig.m */; };
-		FB2A9AEBB29BBEEA2A9A9891264CB1D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		D5C3A9FE700A0C6CEAFE9CEFBC7356AA /* HTCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FE52A2293D3674C9074B19411797EC /* HTCamera-dummy.m */; };
+		DB07AD59F35E1BF3DB71A9D03391F70C /* HTCameraSession+GLPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BF03D7C1A71DC4F2913E61C4D048AA3 /* HTCameraSession+GLPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1779A51FBF1740C234D565E3669C3D6 /* HTCameraSession+GLPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E61497547C81EA00823208F258CA5 /* HTCameraSession+GLPreview.m */; };
+		F1F8A07599DF2BB3B5709A2FEBF0E28C /* HTCameraSessionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A3705EB66F2922CA6C068F5943A45BD8 /* HTCameraSessionConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,55 +40,59 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EE29D7B648BFB6155D48B0FE4E63CC2;
+			remoteGlobalIDString = 7FB4E897F23B8525EF031BAA6BE82E4B;
 			remoteInfo = HTCamera;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CC9B732FA819418929C6B9A340134DF /* HTCameraSession+GLPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTCameraSession+GLPreview.m"; sourceTree = "<group>"; };
+		0D61BC174328E4E6F264CF1ED17566EF /* HTCameraSessionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCameraSessionConfig.h; path = HTCamera/Classes/HTCameraSessionConfig.h; sourceTree = "<group>"; };
 		19E1B6DF2E0E33CAC42F3EEF717E7BA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2542A8B98A8B1F54540DDAC83F6A3193 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25AAC8B250AC6E6E346912ED1D36BF11 /* HTCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTCamera.xcconfig; sourceTree = "<group>"; };
 		302162FC22D42E72C01923A0AF50F61A /* Pods-HTCamera_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTCamera_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		304A3B2083329A6C2C50BF68888F236B /* Pods-HTCamera_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTCamera_Tests-dummy.m"; sourceTree = "<group>"; };
 		30B4F29F980D81A02B90F23A5059793A /* Pods-HTCamera_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTCamera_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3F81D4F3395EE6B8AD506332450A6382 /* HTCameraSession+CAPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCameraSession+CAPreview.h"; sourceTree = "<group>"; };
-		43EC7CB60F0CD2079D0D426B67FA87FD /* HTCameraSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCameraSession.h; path = HTCamera/Classes/HTCameraSession.h; sourceTree = "<group>"; };
-		43F68FED5B441228137556DC6BCCA2DE /* HTCameraSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCameraSessionDelegate.h; path = HTCamera/Classes/HTCameraSessionDelegate.h; sourceTree = "<group>"; };
-		4A7D458BEEB4FB8083AF118D10F2862A /* HTCameraSession+CAPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTCameraSession+CAPreview.m"; sourceTree = "<group>"; };
-		57A5B103B6BF5CD4D05B50F0287B9300 /* Pods-HTCamera_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HTCamera_Example.modulemap"; sourceTree = "<group>"; };
+		356E61497547C81EA00823208F258CA5 /* HTCameraSession+GLPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTCameraSession+GLPreview.m"; sourceTree = "<group>"; };
+		4245EFBA9C617FD50EAEE96F04FEEDB8 /* HTCameraSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCameraSession.h; path = HTCamera/Classes/HTCameraSession.h; sourceTree = "<group>"; };
+		4964D0CCABED59A5F050A4A4713DC509 /* HTCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTCamera.modulemap; sourceTree = "<group>"; };
+		4BF03D7C1A71DC4F2913E61C4D048AA3 /* HTCameraSession+GLPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCameraSession+GLPreview.h"; sourceTree = "<group>"; };
+		57A5B103B6BF5CD4D05B50F0287B9300 /* Pods-HTCamera_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTCamera_Example.modulemap"; sourceTree = "<group>"; };
 		5CE57F70A949504FC463BE7FAFAA5B10 /* Pods-HTCamera_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTCamera_Tests-resources.sh"; sourceTree = "<group>"; };
-		61B560BCC57717F3103889B70CB48EFC /* Pods-HTCamera_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HTCamera_Tests.modulemap"; sourceTree = "<group>"; };
-		61E54469EB56382E246AC3EC991D8632 /* HTCameraSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCameraSession.m; path = HTCamera/Classes/HTCameraSession.m; sourceTree = "<group>"; };
+		61B560BCC57717F3103889B70CB48EFC /* Pods-HTCamera_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTCamera_Tests.modulemap"; sourceTree = "<group>"; };
+		61FE52A2293D3674C9074B19411797EC /* HTCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTCamera-dummy.m"; sourceTree = "<group>"; };
 		6288AACAFB57693013D80F693F490C2A /* Pods-HTCamera_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTCamera_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		63AA02B2C596E13987A39E1864D9A83C /* HTCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTCamera.xcconfig; sourceTree = "<group>"; };
 		63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		67DF49025A1AE695B9B5AB8CD014CF19 /* HTCameraSessionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCameraSessionConfig.h; path = HTCamera/Classes/HTCameraSessionConfig.h; sourceTree = "<group>"; };
-		83366D12535EF84A58A5ECB3FF348264 /* Pods_HTCamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTCamera_Example.framework; path = "Pods-HTCamera_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E07E145190990ADA4C1951F0C9B4524 /* HTCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCamera-prefix.pch"; sourceTree = "<group>"; };
-		8E572F800FA566AB4C2E6C828FDD9D58 /* HTCameraSession+GLPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCameraSession+GLPreview.h"; sourceTree = "<group>"; };
-		910D8F788CAA67B94679926FD1B806E9 /* HTCameraFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCameraFrame.m; path = HTCamera/Classes/HTCameraFrame.m; sourceTree = "<group>"; };
+		757FC732FDB66E49B65DA1AA3B33E499 /* HTCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCamera-prefix.pch"; sourceTree = "<group>"; };
+		8277F900C06F81F29E9A2B616C54C750 /* HTCameraSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCameraSession.m; path = HTCamera/Classes/HTCameraSession.m; sourceTree = "<group>"; };
+		82F501506E11B543590114CA83414CB6 /* HTCameraSession+CAPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTCameraSession+CAPreview.m"; sourceTree = "<group>"; };
+		83366D12535EF84A58A5ECB3FF348264 /* Pods_HTCamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTCamera_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5CAF4920034284002D3736 /* HTCameraDefaultAuthProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTCameraDefaultAuthProvider.h; sourceTree = "<group>"; };
+		8E5CAF4A20034284002D3736 /* HTCameraDefaultAuthProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCameraDefaultAuthProvider.m; sourceTree = "<group>"; };
 		918488223F9F0FA8DF20FA1EAA768EDD /* Pods-HTCamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTCamera_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96FDA4A4116D77A55212DACA7483CA8B /* HTCameraFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCameraFrame.h; path = HTCamera/Classes/HTCameraFrame.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959A295F506F3F4A0780FCD768FCAB57 /* HTCameraSession+CAPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCameraSession+CAPreview.h"; sourceTree = "<group>"; };
 		98162FF66BC04B770C68FACB7E88F86F /* Pods-HTCamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTCamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9A967A3802F78D33A218C6EEC98028FC /* HTCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HTCamera.modulemap; sourceTree = "<group>"; };
+		9A02F45813C5F4E9DB77FB86270B2078 /* HTCameraFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCameraFrame.h; path = HTCamera/Classes/HTCameraFrame.h; sourceTree = "<group>"; };
+		9BD5C748853224BD0FC45C2889FDCD57 /* HTCameraSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCameraSessionDelegate.h; path = HTCamera/Classes/HTCameraSessionDelegate.h; sourceTree = "<group>"; };
 		9F54C9824B845E323D53EB417570CC47 /* Pods-HTCamera_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTCamera_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A4F7A7871CD93964C3EC26DB702F5D76 /* Pods_HTCamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTCamera_Tests.framework; path = "Pods-HTCamera_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBD044D3FA1DD3ABB08465821F39481 /* HTCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCamera-umbrella.h"; sourceTree = "<group>"; };
+		A3705EB66F2922CA6C068F5943A45BD8 /* HTCameraSessionConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCameraSessionConfig.m; path = HTCamera/Classes/HTCameraSessionConfig.m; sourceTree = "<group>"; };
+		A4F7A7871CD93964C3EC26DB702F5D76 /* Pods_HTCamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTCamera_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A888D6E1AB66E6483991AA1F2E5744EF /* Pods-HTCamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTCamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8CBF2A3AE20031AC015BA90BE7F4FD8 /* Pods-HTCamera_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTCamera_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A9EE4B548AD7AE967C7066444A4EF9A7 /* HTCameraFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCameraFrame.m; path = HTCamera/Classes/HTCameraFrame.m; sourceTree = "<group>"; };
 		AA9586CBF0DA16A7342722FF6EA8050A /* Pods-HTCamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTCamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AF34212DEDC9001115BCD9CC41E33CB8 /* Pods-HTCamera_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTCamera_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B731B3E540656CF4ECA59B09C6BF0D7D /* HTCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTCamera.framework; path = HTCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF864EECEEE2F887FCC41527D6D20AD2 /* HTCameraRecognizeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCameraRecognizeResult.m; path = HTCamera/Classes/HTCameraRecognizeResult.m; sourceTree = "<group>"; };
+		B731B3E540656CF4ECA59B09C6BF0D7D /* HTCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2AFEC4271459AAC44178148F5D22E0 /* Pods-HTCamera_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTCamera_Example-resources.sh"; sourceTree = "<group>"; };
-		BD536AA175A060742BB8F88DDC816083 /* HTCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCamera-umbrella.h"; sourceTree = "<group>"; };
 		C96A049745E2210C0C08C258365157BD /* Pods-HTCamera_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTCamera_Example-dummy.m"; sourceTree = "<group>"; };
-		CB4FD55B1763428E8BAE996BF405C46C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0E02987DBCBA855C733C2273767E58A /* HTCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTCamera-dummy.m"; sourceTree = "<group>"; };
 		D164CAF043E98333E0123EE9132A5C9A /* Pods-HTCamera_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTCamera_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D8DE1F56513FDAE4AB4CC0A5207204A2 /* HTCameraSessionConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCameraSessionConfig.m; path = HTCamera/Classes/HTCameraSessionConfig.m; sourceTree = "<group>"; };
+		D9AD382B60A8A961127259C30FCC6167 /* HTCameraRecognizeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCameraRecognizeResult.h; path = HTCamera/Classes/HTCameraRecognizeResult.h; sourceTree = "<group>"; };
 		DFCE1E11A283F12F1AD8AE9AFF8E0E99 /* Pods-HTCamera_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTCamera_Example-umbrella.h"; sourceTree = "<group>"; };
+		E989F8FA226A2366AE5255A6B7230C04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -105,19 +113,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD0198D2D8136FA4A9D61915D1FAE5B0 /* Frameworks */ = {
+		BB806854FF1834D5FCC8614E09C797C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F38F669CE7E9476F3F12FD663C37263B /* AVFoundation.framework in Frameworks */,
-				FB2A9AEBB29BBEEA2A9A9891264CB1D7 /* Foundation.framework in Frameworks */,
-				C8A0D612945BE322C1B1D31DE04D68A1 /* UIKit.framework in Frameworks */,
+				A56E8ADCD010E82E98DEB0D5710CE487 /* AVFoundation.framework in Frameworks */,
+				619DA76AA16B75A69B0448D7F46FF5E7 /* Foundation.framework in Frameworks */,
+				A2E40B7C5E43CB8327161C2913274605 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C15DFD60B8AD945D59F74F6AEC80BBD /* HTCamera */ = {
+			isa = PBXGroup;
+			children = (
+				9A02F45813C5F4E9DB77FB86270B2078 /* HTCameraFrame.h */,
+				A9EE4B548AD7AE967C7066444A4EF9A7 /* HTCameraFrame.m */,
+				D9AD382B60A8A961127259C30FCC6167 /* HTCameraRecognizeResult.h */,
+				AF864EECEEE2F887FCC41527D6D20AD2 /* HTCameraRecognizeResult.m */,
+				4245EFBA9C617FD50EAEE96F04FEEDB8 /* HTCameraSession.h */,
+				8277F900C06F81F29E9A2B616C54C750 /* HTCameraSession.m */,
+				0D61BC174328E4E6F264CF1ED17566EF /* HTCameraSessionConfig.h */,
+				A3705EB66F2922CA6C068F5943A45BD8 /* HTCameraSessionConfig.m */,
+				9BD5C748853224BD0FC45C2889FDCD57 /* HTCameraSessionDelegate.h */,
+				4358FA5E8460FA9456F86D2791201463 /* CA Preview */,
+				79C1674FE63E66ADBD415C5DD17C4EAD /* GL Preview */,
+				F4E87EA13CD077C418875B18BC5C896D /* Support Files */,
+				8E5CAF4920034284002D3736 /* HTCameraDefaultAuthProvider.h */,
+				8E5CAF4A20034284002D3736 /* HTCameraDefaultAuthProvider.m */,
+			);
+			name = HTCamera;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,50 +156,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		232357099A099EC34377962F58477699 /* HTCamera */ = {
+		4358FA5E8460FA9456F86D2791201463 /* CA Preview */ = {
 			isa = PBXGroup;
 			children = (
-				96FDA4A4116D77A55212DACA7483CA8B /* HTCameraFrame.h */,
-				910D8F788CAA67B94679926FD1B806E9 /* HTCameraFrame.m */,
-				43EC7CB60F0CD2079D0D426B67FA87FD /* HTCameraSession.h */,
-				61E54469EB56382E246AC3EC991D8632 /* HTCameraSession.m */,
-				67DF49025A1AE695B9B5AB8CD014CF19 /* HTCameraSessionConfig.h */,
-				D8DE1F56513FDAE4AB4CC0A5207204A2 /* HTCameraSessionConfig.m */,
-				43F68FED5B441228137556DC6BCCA2DE /* HTCameraSessionDelegate.h */,
-				3276179A974090D8BB5BEE46230D2FF7 /* CA Preview */,
-				3A2695B02B4A99E2901BDE2D5242FEAA /* GL Preview */,
-				9BEE788FBFE2F18D1968754C97E9C14E /* Support Files */,
-			);
-			name = HTCamera;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3276179A974090D8BB5BEE46230D2FF7 /* CA Preview */ = {
-			isa = PBXGroup;
-			children = (
-				3F81D4F3395EE6B8AD506332450A6382 /* HTCameraSession+CAPreview.h */,
-				4A7D458BEEB4FB8083AF118D10F2862A /* HTCameraSession+CAPreview.m */,
+				959A295F506F3F4A0780FCD768FCAB57 /* HTCameraSession+CAPreview.h */,
+				82F501506E11B543590114CA83414CB6 /* HTCameraSession+CAPreview.m */,
 			);
 			name = "CA Preview";
 			path = "HTCamera/Classes/CA Preview";
-			sourceTree = "<group>";
-		};
-		37A3C4D8224CCF5909F5388E869F4FD5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				232357099A099EC34377962F58477699 /* HTCamera */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3A2695B02B4A99E2901BDE2D5242FEAA /* GL Preview */ = {
-			isa = PBXGroup;
-			children = (
-				8E572F800FA566AB4C2E6C828FDD9D58 /* HTCameraSession+GLPreview.h */,
-				0CC9B732FA819418929C6B9A340134DF /* HTCameraSession+GLPreview.m */,
-			);
-			name = "GL Preview";
-			path = "HTCamera/Classes/GL Preview";
 			sourceTree = "<group>";
 		};
 		672EAB5D536AE88EFF90EEB2550F247E /* Targets Support Files */ = {
@@ -191,29 +185,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		79C1674FE63E66ADBD415C5DD17C4EAD /* GL Preview */ = {
+			isa = PBXGroup;
+			children = (
+				4BF03D7C1A71DC4F2913E61C4D048AA3 /* HTCameraSession+GLPreview.h */,
+				356E61497547C81EA00823208F258CA5 /* HTCameraSession+GLPreview.m */,
+			);
+			name = "GL Preview";
+			path = "HTCamera/Classes/GL Preview";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				37A3C4D8224CCF5909F5388E869F4FD5 /* Development Pods */,
+				FB75000E591D5A3D737D201CE08A2E70 /* Development Pods */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				A8F6664B0B40304DE3CB20E904A54FB8 /* Products */,
 				672EAB5D536AE88EFF90EEB2550F247E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9BEE788FBFE2F18D1968754C97E9C14E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A967A3802F78D33A218C6EEC98028FC /* HTCamera.modulemap */,
-				25AAC8B250AC6E6E346912ED1D36BF11 /* HTCamera.xcconfig */,
-				D0E02987DBCBA855C733C2273767E58A /* HTCamera-dummy.m */,
-				8E07E145190990ADA4C1951F0C9B4524 /* HTCamera-prefix.pch */,
-				BD536AA175A060742BB8F88DDC816083 /* HTCamera-umbrella.h */,
-				CB4FD55B1763428E8BAE996BF405C46C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HTCamera";
 			sourceTree = "<group>";
 		};
 		A8F6664B0B40304DE3CB20E904A54FB8 /* Products */ = {
@@ -262,6 +252,28 @@
 			path = "Target Support Files/Pods-HTCamera_Tests";
 			sourceTree = "<group>";
 		};
+		F4E87EA13CD077C418875B18BC5C896D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4964D0CCABED59A5F050A4A4713DC509 /* HTCamera.modulemap */,
+				63AA02B2C596E13987A39E1864D9A83C /* HTCamera.xcconfig */,
+				61FE52A2293D3674C9074B19411797EC /* HTCamera-dummy.m */,
+				757FC732FDB66E49B65DA1AA3B33E499 /* HTCamera-prefix.pch */,
+				9FBD044D3FA1DD3ABB08465821F39481 /* HTCamera-umbrella.h */,
+				E989F8FA226A2366AE5255A6B7230C04 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HTCamera";
+			sourceTree = "<group>";
+		};
+		FB75000E591D5A3D737D201CE08A2E70 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C15DFD60B8AD945D59F74F6AEC80BBD /* HTCamera */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -273,17 +285,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D05A3FE485C8CDDD5A7696C822218A70 /* Headers */ = {
+		CCA9118C8CAC2EE00C5CB406232355D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FA185B8255AC4836BB0916103ACF3F8 /* HTCamera-umbrella.h in Headers */,
-				D6C453D559387F48B9CCA7D3CC7218DD /* HTCameraFrame.h in Headers */,
-				E422994E14A8A056DF95473E73F8D1EB /* HTCameraSession+CAPreview.h in Headers */,
-				63395E9238320138F951F38F0ECE4A32 /* HTCameraSession+GLPreview.h in Headers */,
-				91A47D2FD1BEF6DD17F78406FC59D085 /* HTCameraSession.h in Headers */,
-				89BE8A76FF7F8D945CC7BD9AD2AF2042 /* HTCameraSessionConfig.h in Headers */,
-				25BA79A3F4192D52DB4A29551C39D654 /* HTCameraSessionDelegate.h in Headers */,
+				633DE80BC17B5F492E9E1AC2997B7525 /* HTCamera-umbrella.h in Headers */,
+				86C5B5DB5B3662349945D04B063246DC /* HTCameraFrame.h in Headers */,
+				B7438BE8CFC5EA2F682C0FA40533E8E3 /* HTCameraRecognizeResult.h in Headers */,
+				C688E787A60D3E92278F6C955CDC98FA /* HTCameraSession+CAPreview.h in Headers */,
+				DB07AD59F35E1BF3DB71A9D03391F70C /* HTCameraSession+GLPreview.h in Headers */,
+				8E5CAF4B20034284002D3736 /* HTCameraDefaultAuthProvider.h in Headers */,
+				4CF93A6C51F3EBE949D1217EA73A6C57 /* HTCameraSession.h in Headers */,
+				251F7FAEA8B2A590117DB823C893A865 /* HTCameraSessionConfig.h in Headers */,
+				0B562A8F5C047DA3561BBF643AE01875 /* HTCameraSessionDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,13 +330,13 @@
 			productReference = 83366D12535EF84A58A5ECB3FF348264 /* Pods_HTCamera_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8EE29D7B648BFB6155D48B0FE4E63CC2 /* HTCamera */ = {
+		7FB4E897F23B8525EF031BAA6BE82E4B /* HTCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12953F36AF0255FCD42D8E8248FFB66C /* Build configuration list for PBXNativeTarget "HTCamera" */;
+			buildConfigurationList = F1D329C10D98AA5247663D7E6C2C0F5F /* Build configuration list for PBXNativeTarget "HTCamera" */;
 			buildPhases = (
-				A9F66E7B46A35F308C716523F2FBE135 /* Sources */,
-				BD0198D2D8136FA4A9D61915D1FAE5B0 /* Frameworks */,
-				D05A3FE485C8CDDD5A7696C822218A70 /* Headers */,
+				825232083800D9B47760273340CBA08A /* Sources */,
+				BB806854FF1834D5FCC8614E09C797C7 /* Frameworks */,
+				CCA9118C8CAC2EE00C5CB406232355D6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -371,7 +385,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EE29D7B648BFB6155D48B0FE4E63CC2 /* HTCamera */,
+				7FB4E897F23B8525EF031BAA6BE82E4B /* HTCamera */,
 				4D0E6A2DEC451D08A24071AB126426B9 /* Pods-HTCamera_Example */,
 				9B37A260AF40C69CC6A08FDBB53FC0EB /* Pods-HTCamera_Tests */,
 			);
@@ -379,16 +393,18 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A9F66E7B46A35F308C716523F2FBE135 /* Sources */ = {
+		825232083800D9B47760273340CBA08A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4533F4332158C0A171E02FA8EF85AF /* HTCamera-dummy.m in Sources */,
-				9E3610C6BFA144803760F825BE8FA3FE /* HTCameraFrame.m in Sources */,
-				4F98C98EDDD9A1FC37EF81FA938F1A3F /* HTCameraSession+CAPreview.m in Sources */,
-				2AFD84DEC121F8C8831B18C12F0F806A /* HTCameraSession+GLPreview.m in Sources */,
-				C9B68C1FE880EC1ACF8F636C495CF3B4 /* HTCameraSession.m in Sources */,
-				F4D1303C5E59C178EB21DD03868C8496 /* HTCameraSessionConfig.m in Sources */,
+				D5C3A9FE700A0C6CEAFE9CEFBC7356AA /* HTCamera-dummy.m in Sources */,
+				819460D69DACEB3BE4E74CBB32D28A52 /* HTCameraFrame.m in Sources */,
+				CFE8F7EEF06D967215F52DB416F7868C /* HTCameraRecognizeResult.m in Sources */,
+				6E2C4BEEADD898EA830E7C6ED618D6D0 /* HTCameraSession+CAPreview.m in Sources */,
+				E1779A51FBF1740C234D565E3669C3D6 /* HTCameraSession+GLPreview.m in Sources */,
+				BE103673274D43ED17922007FC0DD7F1 /* HTCameraSession.m in Sources */,
+				F1F8A07599DF2BB3B5709A2FEBF0E28C /* HTCameraSessionConfig.m in Sources */,
+				8E5CAF4C20034284002D3736 /* HTCameraDefaultAuthProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +430,7 @@
 		E11506D79A0C7D0F49E5777684BC18F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTCamera;
-			target = 8EE29D7B648BFB6155D48B0FE4E63CC2 /* HTCamera */;
+			target = 7FB4E897F23B8525EF031BAA6BE82E4B /* HTCamera */;
 			targetProxy = A26D959309E403834F2A9DFC8AD87A55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,35 +522,6 @@
 				PRODUCT_NAME = Pods_HTCamera_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7946CFE381F617A89118EADCD35B0BCD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25AAC8B250AC6E6E346912ED1D36BF11 /* HTCamera.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HTCamera/HTCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HTCamera/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HTCamera/HTCamera.modulemap";
-				PRODUCT_NAME = HTCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -639,6 +626,65 @@
 			};
 			name = Release;
 		};
+		C55C45FCCAFCCFB1F737AA4BBFEFE443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AA02B2C596E13987A39E1864D9A83C /* HTCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTCamera/HTCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTCamera/HTCamera.modulemap";
+				PRODUCT_NAME = HTCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D19A8E10A4000C36F02DEF8DE40FF294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AA02B2C596E13987A39E1864D9A83C /* HTCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTCamera/HTCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTCamera/HTCamera.modulemap";
+				PRODUCT_NAME = HTCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EA21C75EE5ADC859019E382BD6D6A43E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -694,48 +740,9 @@
 			};
 			name = Release;
 		};
-		F287BDD899918023C0257D4ED151DB34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25AAC8B250AC6E6E346912ED1D36BF11 /* HTCamera.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HTCamera/HTCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HTCamera/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HTCamera/HTCamera.modulemap";
-				PRODUCT_NAME = HTCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12953F36AF0255FCD42D8E8248FFB66C /* Build configuration list for PBXNativeTarget "HTCamera" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7946CFE381F617A89118EADCD35B0BCD /* Debug */,
-				F287BDD899918023C0257D4ED151DB34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -759,6 +766,15 @@
 			buildConfigurations = (
 				1350CCD7A8CF597A2F472C238B573AF5 /* Debug */,
 				90B885EEDB44E3383031F5C9B7EEA3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D329C10D98AA5247663D7E6C2C0F5F /* Build configuration list for PBXNativeTarget "HTCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55C45FCCAFCCFB1F737AA4BBFEFE443 /* Debug */,
+				D19A8E10A4000C36F02DEF8DE40FF294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -4,12 +4,22 @@
 
 #import "HTCameraSession.h"
 #import "HTCameraFrame.h"
+#import "HTCameraRecognizeResult.h"
+#import "HTCameraDefaultAuthProvider.h"
 
-@interface HTCameraSession () <AVCaptureVideoDataOutputSampleBufferDelegate> {
+const NSString *kHTCameraErrorDomain = @"kHTCameraErrorDomain";
+
+@interface HTCameraSession () <AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureMetadataOutputObjectsDelegate> {
+@private
     AVCaptureSession *_captureSession;
     NSDictionary *_cameraDevices;
+    HTCameraSessionConfig *_config;
 
     dispatch_queue_t _cameraSessionQueue;
+    BOOL _isReadyToUse;
+
+    // Default Auth Behavior Provider
+    HTCameraDefaultAuthProvider *_defaultAuthProvider;
 }
 @end
 
@@ -19,19 +29,97 @@
     if (self = [super init]) {
         _captureSession = [AVCaptureSession new];
         _cameraSessionQueue = dispatch_queue_create("me.ht.camerasession", DISPATCH_QUEUE_SERIAL);
+        _config = config;
+        _defaultAuthProvider = [HTCameraDefaultAuthProvider new];
+        self.authDelegate = _defaultAuthProvider;
+        _isReadyToUse = NO;
 
-        [self configCameraSessionPreset:config.defaultCameraSessionPreset];
-        [self fetchCameraDevice];
-        [self useCameraDevice:config.defaultCameraDeviceType];
-        if (config.useVideoDataOutput) {
-            [self configVideoDataOutput];
-        }
+        [self tryRun];
     }
     return self;
 }
 
+- (id)initWithConfig:(HTCameraSessionConfig *)config authDelegate:(id <HTCameraSessionAuthorizationDelegate>)authDelegate {
+    if (self = [super init]) {
+        _captureSession = [AVCaptureSession new];
+        _cameraSessionQueue = dispatch_queue_create("me.ht.camerasession", DISPATCH_QUEUE_SERIAL);
+        _config = config;
+        self.authDelegate = authDelegate;
+        _isReadyToUse = NO;
+
+        [self tryRun];
+    }
+    return self;
+}
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationDidBecomeActiveNotification object:nil];
+}
+
+- (void)tryRun {
+    [self requireAuthorization:^(BOOL isSuccess, NSError *error) {
+        if (isSuccess) {
+            [self configuration];
+            [self beginCapture:nil];
+        } else if (self.authDelegate && [self.authDelegate respondsToSelector:@selector(cameraSessionRequireAuth:)]) {
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidBecomeActive:) name:UIApplicationDidBecomeActiveNotification object:nil];
+            [self.authDelegate cameraSessionRequireAuth:self];
+        }
+    }];
+}
+
+- (void)configuration {
+    [self configCameraSessionPreset:_config.defaultCameraSessionPreset];
+    [self fetchCameraDevice];
+    [self useCameraDevice:_config.defaultCameraDeviceType];
+    if (_config.useVideoDataOutput) {
+        [self configVideoDataOutput];
+    }
+    if (_config.needRecognizeQrCode) {
+        [self configRecognizeOutput];
+    }
+    _isReadyToUse = YES;
+}
+
 - (AVCaptureSession *)avCaptureSession {
     return _captureSession;
+}
+
+- (void)appDidBecomeActive:(NSNotification *)notification {
+    [self tryRun];
+}
+
+#pragma mark - Auth
+
+- (void)requireAuthorization:(HTCameraSessionOperationHandler)handler {
+    AVAuthorizationStatus authorizationStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
+    switch (authorizationStatus) {
+        case AVAuthorizationStatusNotDetermined: {
+            [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
+                if (granted) {
+                    handler(YES, nil);
+                } else {
+                    handler(NO, [NSError errorWithDomain:kHTCameraErrorDomain code:-1 userInfo:@{@"message": @"无权限访问"}]);
+                }
+            }];
+            break;
+        }
+
+        case AVAuthorizationStatusAuthorized: {
+            handler(YES, nil);
+            break;
+        }
+
+        case AVAuthorizationStatusRestricted:
+        case AVAuthorizationStatusDenied: {
+            handler(NO, [NSError errorWithDomain:kHTCameraErrorDomain code:-1 userInfo:@{@"message": @"无权限访问"}]);
+            break;
+        }
+
+        default: {
+            break;
+        }
+    }
 }
 
 #pragma mark - AV Setup Methods
@@ -79,7 +167,7 @@
 
 - (void)configCameraSessionPreset:(HTCameraSessionPreset)preset {
     AVCaptureSessionPreset avCaptureSessionPreset;
-    switch(preset) {
+    switch (preset) {
         case HTCameraSessionPresetLow:
             avCaptureSessionPreset = AVCaptureSessionPresetLow;
             break;
@@ -102,13 +190,30 @@
     }
 }
 
+- (void)configRecognizeOutput {
+    AVCaptureMetadataOutput *output = [AVCaptureMetadataOutput new];
+    [output setMetadataObjectsDelegate:self queue:_cameraSessionQueue];
+    if ([_captureSession canAddOutput:output]) {
+        [_captureSession addOutput:output];
+    }
+    [output setMetadataObjectTypes:@[AVMetadataObjectTypeQRCode]];
+}
+
 #pragma mark - Control Logic
 
 - (void)beginCapture:(HTCameraSessionOperationHandler)resultHandler {
+    if (_isReadyToUse == NO) {
+        if (resultHandler) {
+            resultHandler(NO, nil);
+        }
+        return;
+    }
     if (![_captureSession isRunning]) {
         dispatch_async(_cameraSessionQueue, ^{
             [_captureSession startRunning];
-            resultHandler([_captureSession isRunning], nil);
+            if (resultHandler) {
+                resultHandler([_captureSession isRunning], nil);
+            }
             if (self.delegate &&
                     [self.delegate respondsToSelector:@selector(cameraSessionDidStart:)]) {
                 [self.delegate cameraSessionDidStart:self];
@@ -118,10 +223,18 @@
 }
 
 - (void)stopCapture:(HTCameraSessionOperationHandler)resultHandler {
+    if (_isReadyToUse == NO) {
+        if (resultHandler) {
+            resultHandler(NO, nil);
+        }
+        return;
+    }
     if ([_captureSession isRunning]) {
         dispatch_async(_cameraSessionQueue, ^{
             [_captureSession stopRunning];
-            resultHandler(![_captureSession isRunning], nil);
+            if (resultHandler) {
+                resultHandler(![_captureSession isRunning], nil);
+            }
             if (self.delegate &&
                     [self.delegate respondsToSelector:@selector(cameraSessionDidStop:)]) {
                 [self.delegate cameraSessionDidStop:self];
@@ -151,6 +264,19 @@
         CVImageBufferRef cvImageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
         HTCameraFrame *frame = [[HTCameraFrame alloc] initWithPixelBuffer:cvImageBuffer];
         [self.delegate cameraSessionCapturing:self frame:frame];
+    }
+}
+
+#pragma mark - Metadata Output Delegate
+
+- (void)captureOutput:(AVCaptureOutput *)output didOutputMetadataObjects:(NSArray<__kindof AVMetadataObject *> *)metadataObjects fromConnection:(AVCaptureConnection *)connection {
+    if (self.recognizeDelegate &&
+            [self.recognizeDelegate respondsToSelector:@selector(cameraSession:didRecognize:)]) {
+        AVMetadataMachineReadableCodeObject *readableCodeObject = [metadataObjects firstObject];
+        if (readableCodeObject && [readableCodeObject.type isEqualToString:AVMetadataObjectTypeQRCode]) {
+            NSString *qrcodeContent = readableCodeObject.stringValue;
+            [self.recognizeDelegate cameraSession:self didRecognize:[[HTCameraRecognizeResult alloc] initAsQRCode:qrcodeContent]];
+        }
     }
 }
 @end
